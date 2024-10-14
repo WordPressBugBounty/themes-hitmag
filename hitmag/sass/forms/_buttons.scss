@@ -1,0 +1,52 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: none;
+	//border-color: $color__border-button;
+	border-radius: 3px;
+	background: #e74c3c;
+	color: #fff;
+	@include font-size(0.75);
+	font-weight: bold;
+	line-height: 1;
+	padding: 13px 20px;
+	text-transform: uppercase;
+	font-family: $font__secondary;
+
+	&:hover {
+		//border-color: $color__border-button-hover;
+		background: #222222;
+	}
+
+	&:active,
+	&:focus {
+		//border-color: $color__border-button-focus;
+		background: #222222;
+	}
+}
+
+.th-readmore {
+	display: inline-block;
+	border-radius: 3px;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 11px;
+	background: #e74c3c;
+	padding: 8px 15px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: $font__secondary;
+}
+
+.th-readmore:hover,
+.th-readmore:focus {
+	background: #222;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.th-readmore:active,
+.th-readmore:visited {
+	color: #ffffff;
+}

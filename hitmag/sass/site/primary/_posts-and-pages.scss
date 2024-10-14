@@ -1,0 +1,800 @@
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+}
+
+.page-links {
+	clear: both;
+	margin: 3.5em 0 1.5em;
+
+	.post-page-numbers {
+		border: 1px solid #ddd;
+		color: #404040 !important;
+		padding: 5px 14px;
+		font-weight: bold;
+		margin: 0 2px;
+		border-radius: 3px;
+		display: inline-block;
+		text-decoration: none !important;
+	}
+
+	.post-page-numbers:visited {
+		color: #000000;
+	}
+
+	.post-page-numbers:hover, 
+	.post-page-numbers.current {
+		background-color: #e74c3c;
+		border: 1px solid #e74c3c;
+		color: #ffffff !important;
+	}
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	background: #ddd;
+}
+
+.hm-logo {
+	float: left;
+}
+
+.hm-site-title {
+	overflow: hidden;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.site-header {
+	margin: 0 0 40px;
+}
+
+.hm-top-bar {
+	height: 35px;
+	//padding: 0 40px;
+	background: #ECF0F1;
+	border-bottom: 1px solid #ddd;
+	font-family: $font__secondary;
+}
+
+.hm-date {
+	@include font-size(0.75);
+	line-height: 20px;
+	margin: 7.5px 15px 7.5px 0;
+	float: left;
+	font-weight: bold;
+}
+
+.header-main-area {
+	overflow: hidden;
+	clear: both;
+}
+
+.site-branding {
+	float: left;
+	max-width: 100%;
+	margin: 28px 0;
+}
+
+.site-title {
+	font-family: 'Open Sans', sans-serif;
+	@include font-size(2.25);
+	font-weight: bold;
+	margin: 0;
+	line-height: 1.3;
+
+	a {
+		color: #e74c3c;
+
+		&:hover {
+			color: #222222;
+		}
+	}
+}
+
+.site-description {
+	@include font-size(0.875);
+	margin: 2px 0 0 0;
+}
+
+.hm-header-image {
+	//overflow: hidden;
+
+	img {
+		float: left;
+		width: 100%;
+	}
+}
+
+.hitmag-post {
+
+	margin-bottom: 50px;
+	
+	.entry-title {
+		@include font-size(1.313);
+		font-weight: bold;
+		line-height: 1.3;
+		margin: 0 0 0.286em;
+		-ms-word-wrap: break-word;
+		word-wrap: break-word;
+
+		a {
+			color: #222222;
+			line-height: 1.3;
+			
+			&:hover {
+				color: #e74c3c;
+			}
+		}
+	}
+
+	.entry-meta {
+		color: #888;
+		@include font-size(0.8125);
+
+		a {
+			color: #888;
+
+			&:hover {
+				color: #e74c3c;
+			}
+		}
+	}
+
+	.entry-summary {
+		margin: 0.813em 0 0;
+
+		p {
+			margin: 0 0 1.438em;
+		}
+	}
+
+	.cat-links {
+		margin: 0 0 0.455em 0;
+		@include font-size(0.6875);
+		text-transform: uppercase;
+		line-height: 1.2;
+	}
+
+}
+
+@media all and (min-width: 768px) {
+	.th-large-posts {
+		.hitmag-post {
+
+			margin-bottom: 4.5em;
+
+			.entry-title {
+				@include font-size(1.625);
+				margin-top: 0.192em;
+			}
+		}
+	}
+}
+
+.meta-sep {
+	margin: 0 2px;
+}
+
+.archive-thumb {
+
+	margin: 0 0 16px;
+
+	img {
+		vertical-align: middle;
+
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}	
+}
+
+.cat-links {
+	font-family: $font__secondary;
+	color: #bbb;
+
+	a {
+		color: #e74c3c;
+		font-weight: bold;
+
+		&:hover {
+			color: #222222;
+		}
+	}
+}
+
+// Single posts styling
+.hitmag-single {
+
+	margin-bottom: 3em;
+	line-height: 1.6;
+
+	.entry-header {
+		margin-bottom: 27px;
+	}
+
+	.cat-links {
+		@include font-size(0.6875);
+		margin-bottom: 0.455em;
+		text-transform: uppercase;
+	}
+
+	.entry-title {
+		@include font-size(2);
+		margin: 0 0 0.2em;
+		font-weight: bold;
+		color: #222;
+		line-height: 1.2;
+		-ms-word-wrap: break-word;
+		word-wrap: break-word;
+	}
+
+	.entry-meta {
+		margin: 0 0 1.154em;
+		@include font-size(0.8125);
+		font-weight: bold;
+		color: #888888;
+
+		a {
+			color: #888888;
+
+			&:hover {
+				color: #e74c3c;
+			}
+		}
+	}
+
+	.author a {
+		color: #444;
+
+		&:hover {
+			color: #e74c3c;
+		}
+	}
+
+}
+
+.hm-authorbox {
+	padding: 20px;
+	border: 1px solid #dddddd;
+	overflow: hidden;
+	margin-bottom: 3em;
+}
+
+.hm-related-posts {
+	margin-bottom: 3em;
+}
+
+.hm-author-img {
+	float: left;
+	margin:  0 25px 0 0;
+}
+
+.hm-author-content {
+	overflow: hidden;
+
+	.author-name {
+		@include font-size(1.0625);
+		margin: 0 0 1em;
+	}
+
+	.author-description {
+		margin: 0;
+	}
+
+	.author-posts-link {
+		margin: 1em 0 0;
+		display: block;
+		color: #e74c3c;
+		font-style: italic;
+
+		&:hover {
+			color: #222;
+		}
+	}
+
+}
+
+.hm-tags-links {
+	text-transform: uppercase;
+	font-weight: bold;
+	@include font-size(0.75);
+	margin: 20px 0;
+    display: block;
+
+	a {
+		line-height: 1.5;
+		padding: 0 5px;
+		margin-right: 1px;
+		background: #222;
+		color: #fff;
+		display: inline-block;
+		text-transform: uppercase;
+		font-weight: bold;
+		@include font-size(0.75);
+		border-radius: 2px;
+
+		&:hover {
+			background: #e74c3c;
+			color: #fff;
+		}
+	}
+}
+
+.hm-tagged {
+	line-height: 1.5;
+	padding: 0 5px;
+	margin-right: 1px;
+	background: #e74c3c;
+	color: #fff;
+	display: inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+	@include font-size(0.75);
+	border-radius: 2px;	
+}
+
+.hm-edit-link {
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 1.5em;
+
+	a.post-edit-link {
+		padding: 5px 10px;
+		background: #e74c3c;
+		color: #fff;
+		border-radius: 3px;
+		@include font-size(0.75);
+
+		&:before {
+			content: "\f044";
+			font-family: 'Font Awesome 6 Free';
+			font-weight: 900;
+			display: inline-block;
+			text-rendering: auto;
+			-webkit-font-smoothing: antialiased;
+			font-size: 12px;
+			margin: 1px .5em 0 0;
+		}
+
+		&:hover {
+			color: #fff;
+			background: #222;
+		}
+	}
+
+}
+
+.hitmag-page .entry-title {
+	margin: 0 0 1em 0;
+	@include font-size(2.125);
+	-ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.arc-page-title {
+	font-size: 18px;
+    font-size: 1.125rem;
+    padding: 2px 0;
+    border-bottom: 2px solid #e74c3c;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    line-height: 1.3;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.srch-page-title {
+	font-size: 18px;
+    font-size: 1.125rem;
+    padding: 2px 0;
+    border-bottom: 2px solid #e74c3c;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    line-height: 1.3;
+    text-transform: uppercase;
+    display: inline;	
+}
+
+.archive-description {
+	margin-top: 0.625em;
+	font-style: italic;
+}
+
+.archive .page-header,
+.search .page-header {
+	margin-bottom: 2.55em;
+
+	p {
+		margin-bottom: 0;
+	}
+}
+
+.archive.category .page-header {
+	margin-bottom: 2.5em;
+}
+
+.no-results,
+.error-404 {
+
+	.page-title {
+		margin: 0.25em 0 1em 0;
+		font-size: 34px;
+		font-size: 2.125rem;
+	}
+
+	.page-header {
+		margin-bottom: 0;
+	}
+}
+
+/* Featured Slider */
+.hitmag-featured-slider {
+	margin-bottom: 40px;
+}
+
+.hm-slider-container {
+	position: relative;
+	cursor: pointer;
+}
+
+.hm-slide-holder {
+	position: relative;
+}
+
+.hm-slide-image {
+	position: relative;
+	width: 100%;
+	padding-top: 48.97959183673469%;
+
+	img {
+		width: 100%;
+		height: 100%;
+		-o-object-fit: cover;
+		object-fit: cover;
+		position: absolute;
+		top: 0;
+	}
+}
+
+.hm-slide-holder > .hm-slide-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.hm-slider-details {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+    color: #fff;
+	padding: 30px;
+	width: 100%;
+	box-sizing: border-box;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 1%, rgba(0,0,0,0.5) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 1%,rgba(0,0,0,0.5) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 1%,rgba(0,0,0,0.5) 100%);	
+
+	a {
+		color: #fff;
+
+		&:hover {
+			color: #ccc;
+		}
+	}
+
+	.cat-links {
+	    text-transform: uppercase;
+	    @include font-size(0.625);
+		padding: 3px 8px;
+		background: #e74c3c;
+	    margin: 0 0 5px;
+	    display: inline-block;
+	    color: #ffffff;
+		position: relative;
+		z-index: 2;
+
+		a {
+			color: #fff;
+		}
+
+		a:hover {
+			color: #ddd;
+		}
+	    
+	    @media (max-width: 768px) {
+			display: none;
+		}
+	}
+}
+
+.hm-slider-title {
+	text-shadow: 0 0 5px #222;
+	@include font-size(1);
+	margin: 2px 0 0;
+	line-height: 1.3;
+
+	@media (min-width: 480px) {
+		@include font-size(1.25);
+	}
+
+	@media (min-width: 768px) {
+		@include font-size(1.375);
+	}
+
+	@media (min-width: 992px) {
+		@include font-size(1.625);
+	}	
+
+}
+
+.slide-entry-meta {
+	color: #fff;
+	@include font-size(0.8125);
+	margin: 5px 0 0;
+	text-shadow: 0 0 2px #000;
+
+	span {
+		position: relative;
+		z-index: 2;
+	}
+
+	a {
+		color: #fff;
+
+		&:hover {
+			color: #ccc;
+		}
+	}	
+	    
+	@media (max-width: 768px) {
+		display: none;
+	}
+
+}
+
+.hmwcsw {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+
+.hm-swiper.hm-thumb-swiper { 
+	background: #ddd;
+	padding: 10px;
+
+	.hm-swiper-slide {
+		max-width: 48%;
+		margin-right: 10px;
+
+		@media (min-width: 320px) {
+			max-width: 32%;
+		}
+
+		@media (min-width: 480px) {
+			max-width: 24%;
+		}
+
+		@media (min-width: 640px) {
+			max-width: 19%;
+		}
+	}
+
+	img {
+		width: 100%;
+		display: block;
+		opacity: .9;
+		cursor: pointer;
+		box-sizing: border-box;
+
+		&:hover {
+			opacity: 1;
+		}
+	}
+	
+	.swiper-slide-thumb-active img { 
+		opacity: 1; 
+		cursor: default;
+		border: 2px solid #fff;
+		height: auto !important;
+	}
+}
+
+.hm-thumb-bg {
+	background: #000;
+}
+
+.hm-related-posts {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 1.5em;
+}
+
+.hm-rel-post {
+	display: inline-block;
+    margin-right: 3.5%;
+    margin-left: 0;
+	margin-bottom: 2em;
+    width: 31%;
+    vertical-align: top;
+    position: relative;
+    float: left;
+
+	@media ( max-width: 768px ) {
+		width: 100%;
+		margin-right: 0;
+	}
+
+	img {
+		margin-bottom: 17px;
+		width: 100%;
+		vertical-align: middle;
+	}
+
+	.post-title {
+		@include font-size(1.0625);
+		margin: 0 0 .5em 0;
+
+		a {
+			color: #222;
+
+			&:hover {
+				color: #e74c3c;
+			}
+		}
+	}
+
+}
+
+.hm-rel-post:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+/* Share Icons */
+
+.hitmag-social-sharing {
+	overflow: hidden;
+}
+
+.entry-header {
+	.hitmag-social-sharing {
+		margin-bottom: 2.3em;
+	}
+}
+
+.entry-footer {
+	.hitmag-social-sharing {
+		margin-top: 1.5em;
+	}
+}
+
+.hm-share {
+	margin-right: 10px;
+	padding: 7px 13px;
+	color: #fff;
+	border-radius: 3px;
+	line-height: 15px;
+	display: inline-block;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+	&:visited {
+		color: #fff;
+	}
+
+	&:hover {
+		color: #fff;
+		opacity: 0.8;
+	}
+}
+
+.hm-share-facebook {
+	background: #3b5998;
+}
+
+.hm-share-facebook:before {
+	content: "\f39e";
+	font-family: 'Font Awesome 6 Brands';
+	font-weight: 400;
+	display: inline-block;
+	text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+	font-size: 11px;
+	margin: 0;
+}
+
+.hm-share-twitter {
+	background: #33ccff;
+}
+
+.hm-share-twitter:before {
+	content: "\e61b";
+	font-family: 'Font Awesome 6 Brands';
+	font-weight: 400;
+	display: inline-block;
+	text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+	font-size: 11px;
+	margin: 0;
+}
+
+.hm-share-facebook,
+.hm-share-twitter,
+.hm-share-googleplus {
+	&:before {
+		line-height: 15px;
+		border-right:1px solid rgba( 255, 255, 255, 0.3 );
+		margin-right: 0.6em;
+		padding-right: 0.6em;
+	}
+}
+
+/**
+ * Block Styles 
+ */
+ ul.wp-block-gallery,
+ ol.wp-block-gallery {
+	 margin: 0;
+	 padding-left: 0;
+ }
+ 
+ .wp-block-pullquote {
+	 border-top: none;
+	 border-bottom: none;
+	 color: inherit;
+	 padding: 0;
+	 margin-left: 0;
+	 margin-right: 0;
+	 text-align: none;
+ }
+ 
+ .wp-block-pullquote.alignleft {
+	 margin-right: 25px;
+ }
+ 
+ .wp-block-pullquote.alignright {
+	 margin-left: 25px;
+ }
+ 
+ .wp-block-separator {
+	 background-color: #cccccc;
+	 border: 0;
+	 height: 1px;
+	 margin-bottom: 1.5em;
+ }
+ 
+ .wp-block-table td,
+ .wp-block-table th {
+	 border: 1px solid #ededed;
+	 padding: 8px 15px; 
+ }

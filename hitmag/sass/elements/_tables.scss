@@ -1,0 +1,30 @@
+table {
+  border-collapse: collapse;
+  margin: 0 0 1.5em;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ededed;
+}
+
+th {
+  background: #f8f8f8;
+  font-weight: bold;
+  padding: 8px 15px;
+}
+
+.site-footer {
+
+  table, th, td {
+    border: 1px solid #555;
+  }
+
+  th {
+    background: #222;
+  }
+}
+
+td {
+  padding: 5px 15px;
+}
