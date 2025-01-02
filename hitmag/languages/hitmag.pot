@@ -1,15 +1,15 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitmag.1.4.0\n"
-"POT-Creation-Date: 2024-07-01 05:44+0530\n"
+"Project-Id-Version: hitmag.1.4.2\n"
+"POT-Creation-Date: 2025-01-01 22:16+0530\n"
 "PO-Revision-Date: 2017-11-21 08:57+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.3\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n;"
 "_x;_nx\n"
 "X-Poedit-Basepath: ..\n"
@@ -1239,7 +1239,7 @@ msgstr ""
 
 #: inc/widgets/block-posts-dual.php:47 inc/widgets/block-posts-dual.php:70
 #: inc/widgets/block-posts-grid.php:41 inc/widgets/block-posts-single.php:37
-#: inc/widgets/sidebar-posts.php:40
+#: inc/widgets/popular-posts.php:40 inc/widgets/sidebar-posts.php:40
 msgid "Title:"
 msgstr ""
 
@@ -1249,7 +1249,8 @@ msgid "Select a post category"
 msgstr ""
 
 #: inc/widgets/block-posts-dual.php:55 inc/widgets/block-posts-dual.php:78
-#: inc/widgets/block-posts-grid.php:49 inc/widgets/sidebar-posts.php:48
+#: inc/widgets/block-posts-grid.php:49 inc/widgets/popular-posts.php:48
+#: inc/widgets/sidebar-posts.php:48
 msgid "Number of posts:"
 msgstr ""
 
@@ -1283,6 +1284,28 @@ msgstr ""
 msgid "HitMag: Magazine Posts (Style 1)"
 msgstr ""
 
+#: inc/widgets/popular-posts.php:14
+msgid "HitMag: Popular Posts"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:15
+msgid ""
+"Displays popular posts based on the comment count. Use this widget in the "
+"main sidebars."
+msgstr ""
+
+#: inc/widgets/popular-posts.php:30
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:44
+msgid "Category"
+msgstr ""
+
+#: inc/widgets/popular-posts.php:52 inc/widgets/popular-tags-comments.php:38
+msgid "Enter the number of days to display popular posts:"
+msgstr ""
+
 #: inc/widgets/popular-tags-comments.php:15
 msgid "HitMag: Popular Posts, Tags, Comments"
 msgstr ""
@@ -1293,10 +1316,6 @@ msgstr ""
 
 #: inc/widgets/popular-tags-comments.php:34
 msgid "Number of popular posts:"
-msgstr ""
-
-#: inc/widgets/popular-tags-comments.php:38
-msgid "Enter the number of days to display popular posts:"
 msgstr ""
 
 #: inc/widgets/popular-tags-comments.php:42

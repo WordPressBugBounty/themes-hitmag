@@ -41,3 +41,11 @@ li#customize-control-post_sidebar_align img:last-child {
 #customize-control-theme_documentation {
     margin-bottom: 30px;
 }
+
+#customize-theme-controls .accordion-section-title button.accordion-trigger {
+    max-height: fit-content;
+}
+
+#customize-theme-controls #accordion-section-hitmag_upsell .accordion-section-title:after {
+    display: none;
+}

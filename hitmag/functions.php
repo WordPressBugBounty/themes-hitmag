@@ -410,6 +410,7 @@ require get_template_directory() . '/inc/widgets/block-posts-dual.php';
 require get_template_directory() . '/inc/widgets/block-posts-grid.php';
 require get_template_directory() . '/inc/widgets/sidebar-posts.php';
 require get_template_directory() . '/inc/widgets/popular-tags-comments.php';
+require get_template_directory() . '/inc/widgets/popular-posts.php';
 
 
 /**

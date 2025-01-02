@@ -2,9 +2,9 @@
 
 Contributors: Pubudu Malalasekara
 Requires at least: 4.7
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.3
-Stable tag: 1.4.1
+Stable tag: 1.4.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Jetpack
 Font Awesome 4 Menus
 
 == Changelog ==
+
+= 1.4.2 =
+* Added HitMag: Popular Posts widget to display popular posts based on the comment count.
+* Fixed a CSS issue in the customizer.
 
 = 1.4.1 =
 * Removed the loading icon from the customizer.
