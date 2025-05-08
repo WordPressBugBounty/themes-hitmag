@@ -1,15 +1,15 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitmag.1.4.2\n"
-"POT-Creation-Date: 2025-01-01 22:16+0530\n"
+"Project-Id-Version: hitmag.1.4.3\n"
+"POT-Creation-Date: 2025-05-07 11:39+0530\n"
 "PO-Revision-Date: 2017-11-21 08:57+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.5\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n;"
 "_x;_nx\n"
 "X-Poedit-Basepath: ..\n"
@@ -60,59 +60,59 @@ msgstr ""
 msgid "Powered by %1$s and %2$s."
 msgstr ""
 
-#: functions.php:52 functions.php:173 header.php:147
+#: functions.php:60 functions.php:181 header.php:147
 #: inc/customizer/customizer.php:209
 msgid "Main Menu"
 msgstr ""
 
-#: functions.php:53 functions.php:182 header.php:53
+#: functions.php:61 functions.php:190 header.php:53
 #: inc/customizer/customizer.php:200
 msgid "Top Menu"
 msgstr ""
 
-#: functions.php:54
+#: functions.php:62
 msgid "Social Media Menu"
 msgstr ""
 
-#: functions.php:191
+#: functions.php:199
 msgid "Social Links Menu"
 msgstr ""
 
-#: functions.php:229
+#: functions.php:237
 msgid "Main Sidebar"
 msgstr ""
 
-#: functions.php:231
+#: functions.php:239
 msgid "Add widgets here."
 msgstr ""
 
-#: functions.php:238 inc/dashboard/theme-info.php:59
+#: functions.php:246 inc/dashboard/theme-info.php:59
 msgid "Magazine Homepage"
 msgstr ""
 
-#: functions.php:240
+#: functions.php:248
 msgid ""
 "Appearas on Magazine Homepage template only. Add magazine posts widgets to "
 "this widget area."
 msgstr ""
 
-#: functions.php:247
+#: functions.php:255
 msgid "Header Advertisement Area"
 msgstr ""
 
-#: functions.php:249
+#: functions.php:257
 msgid "You can add advertisement widget to this widget area."
 msgstr ""
 
-#: functions.php:256
+#: functions.php:264
 msgid "Footer Left Sidebar"
 msgstr ""
 
-#: functions.php:265
+#: functions.php:273
 msgid "Footer Mid Sidebar"
 msgstr ""
 
-#: functions.php:274
+#: functions.php:282
 msgid "Footer Right Sidebar"
 msgstr ""
 
@@ -281,16 +281,16 @@ msgid "Top Bar Show/Hide"
 msgstr ""
 
 #: inc/customizer/customizer.php:181 inc/customizer/customizer.php:381
-#: inc/customizer/customizer.php:429 inc/customizer/customizer.php:489
-#: inc/customizer/customizer.php:539 inc/customizer/customizer.php:552
-#: inc/customizer/customizer.php:565 inc/customizer/customizer.php:578
+#: inc/customizer/customizer.php:429 inc/customizer/customizer.php:499
+#: inc/customizer/customizer.php:549 inc/customizer/customizer.php:562
+#: inc/customizer/customizer.php:575 inc/customizer/customizer.php:588
 msgid "Show"
 msgstr ""
 
 #: inc/customizer/customizer.php:182 inc/customizer/customizer.php:382
-#: inc/customizer/customizer.php:430 inc/customizer/customizer.php:490
-#: inc/customizer/customizer.php:540 inc/customizer/customizer.php:553
-#: inc/customizer/customizer.php:566 inc/customizer/customizer.php:579
+#: inc/customizer/customizer.php:430 inc/customizer/customizer.php:500
+#: inc/customizer/customizer.php:550 inc/customizer/customizer.php:563
+#: inc/customizer/customizer.php:576 inc/customizer/customizer.php:589
 msgid "Hide"
 msgstr ""
 
@@ -358,8 +358,8 @@ msgstr ""
 msgid "Select the category for slider posts"
 msgstr ""
 
-#: inc/customizer/customizer.php:317 inc/customizer/customizer.php:453
-#: inc/customizer/customizer.php:586
+#: inc/customizer/customizer.php:317 inc/customizer/customizer.php:463
+#: inc/customizer/customizer.php:596
 msgid "Content and Sidebar Alignment"
 msgstr ""
 
@@ -407,15 +407,15 @@ msgstr ""
 msgid "Category List"
 msgstr ""
 
-#: inc/customizer/customizer.php:367 inc/customizer/customizer.php:475
+#: inc/customizer/customizer.php:367 inc/customizer/customizer.php:485
 msgid "Date"
 msgstr ""
 
-#: inc/customizer/customizer.php:368 inc/customizer/customizer.php:476
+#: inc/customizer/customizer.php:368 inc/customizer/customizer.php:486
 msgid "Author"
 msgstr ""
 
-#: inc/customizer/customizer.php:369 inc/customizer/customizer.php:477
+#: inc/customizer/customizer.php:369 inc/customizer/customizer.php:487
 msgid "Comments Link"
 msgstr ""
 
@@ -443,65 +443,76 @@ msgstr ""
 msgid "Read More"
 msgstr ""
 
-#: inc/customizer/customizer.php:469
+#: inc/customizer/customizer.php:453
+msgid "Improve image quality by using larger sizes?"
+msgstr ""
+
+#: inc/customizer/customizer.php:454
+msgid ""
+"( Changes require regenerating thumbnails for existing featured images. This "
+"setting affects \"featured images\" displayed on archives, widgets, single "
+"posts, etc. )"
+msgstr ""
+
+#: inc/customizer/customizer.php:479
 msgid "What post meta to display in single post?"
 msgstr ""
 
-#: inc/customizer/customizer.php:474
+#: inc/customizer/customizer.php:484
 msgid "Categories List"
 msgstr ""
 
-#: inc/customizer/customizer.php:484
+#: inc/customizer/customizer.php:494
 msgid "Featured image inside the single post."
 msgstr ""
 
-#: inc/customizer/customizer.php:497
+#: inc/customizer/customizer.php:507
 msgid "Link featured image to full size image."
 msgstr ""
 
-#: inc/customizer/customizer.php:513
+#: inc/customizer/customizer.php:523
 msgid "Use lightbox feature."
 msgstr ""
 
-#: inc/customizer/customizer.php:534
+#: inc/customizer/customizer.php:544
 msgid "Posts navigation after the post."
 msgstr ""
 
-#: inc/customizer/customizer.php:547
+#: inc/customizer/customizer.php:557
 msgid "Author details box after the post."
 msgstr ""
 
-#: inc/customizer/customizer.php:560
+#: inc/customizer/customizer.php:570
 msgid "Related posts after the post."
 msgstr ""
 
-#: inc/customizer/customizer.php:573
+#: inc/customizer/customizer.php:583
 msgid "Tags list after the post."
 msgstr ""
 
-#: inc/customizer/customizer.php:602
+#: inc/customizer/customizer.php:612
 msgid "Theme Setup Guide"
 msgstr ""
 
-#: inc/customizer/customizer.php:604
+#: inc/customizer/customizer.php:614
 msgid "Read the documentation"
 msgstr ""
 
-#: inc/customizer/customizer.php:610 inc/customizer/customizer.php:612
+#: inc/customizer/customizer.php:620 inc/customizer/customizer.php:622
 msgid "Theme Details"
 msgstr ""
 
-#: inc/customizer/customizer.php:705
+#: inc/customizer/customizer.php:715
 #: inc/kirki/assets/vendor/wp-color-picker-alpha/wp-color-picker-alpha.js:129
 msgid "Clear"
 msgstr ""
 
-#: inc/customizer/customizer.php:706
+#: inc/customizer/customizer.php:716
 #: inc/kirki/assets/vendor/wp-color-picker-alpha/wp-color-picker-alpha.js:130
 msgid "Clear color"
 msgstr ""
 
-#: inc/customizer/customizer.php:707
+#: inc/customizer/customizer.php:717
 #: inc/kirki/assets/vendor/wp-color-picker-alpha/wp-color-picker-alpha.js:124
 #: inc/kirki/controls/php/class-kirki-control-base.php:134
 #: inc/kirki/controls/views/image.php:36
@@ -509,17 +520,17 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: inc/customizer/customizer.php:708
+#: inc/customizer/customizer.php:718
 #: inc/kirki/assets/vendor/wp-color-picker-alpha/wp-color-picker-alpha.js:125
 msgid "Select default color"
 msgstr ""
 
-#: inc/customizer/customizer.php:709
+#: inc/customizer/customizer.php:719
 #: inc/kirki/assets/vendor/wp-color-picker-alpha/wp-color-picker-alpha.js:113
 msgid "Select Color"
 msgstr ""
 
-#: inc/customizer/customizer.php:710
+#: inc/customizer/customizer.php:720
 #: inc/kirki/assets/vendor/wp-color-picker-alpha/wp-color-picker-alpha.js:92
 msgid "Color value"
 msgstr ""
@@ -621,9 +632,9 @@ msgstr ""
 
 #: inc/dashboard/theme-info.php:157
 msgid ""
-"Go to the edit screen of the front page. Then select the \"Magazine Homepage"
-"\" option for the \"Template\" setting which is under the \"Summary\" "
-"section of the \"Page\" settings."
+"Go to the edit screen of the front page. Then select the \"Magazine "
+"Homepage\" option for the \"Template\" setting which is under the "
+"\"Summary\" section of the \"Page\" settings."
 msgstr ""
 
 #: inc/dashboard/theme-info.php:161

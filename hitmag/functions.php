@@ -41,11 +41,19 @@ function hitmag_setup() {
 	 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
 	 */
 	add_theme_support( 'post-thumbnails' );
-	add_image_size( 'hitmag-landscape',	1120, 450, true );
-	add_image_size( 'hitmag-featured', 735, 400, true );
-	add_image_size( 'hitmag-grid', 348, 215, true );
-	add_image_size( 'hitmag-list', 290, 220, true );
-	add_image_size( 'hitmag-thumbnail', 135, 93, true );
+	if ( true == get_theme_mod( 'hitmag_use_high_res_images', false ) ) {
+		add_image_size( 'hitmag-landscape',	1500, 607, true );
+		add_image_size( 'hitmag-featured', 1000, 545, true );
+		add_image_size( 'hitmag-grid', 696, 430, true );
+		add_image_size( 'hitmag-list', 580, 440, true );
+		add_image_size( 'hitmag-thumbnail', 270, 186, true );
+	} else {
+		add_image_size( 'hitmag-landscape',	1120, 450, true );
+		add_image_size( 'hitmag-featured', 735, 400, true );
+		add_image_size( 'hitmag-grid', 348, 215, true );
+		add_image_size( 'hitmag-list', 290, 220, true );
+		add_image_size( 'hitmag-thumbnail', 135, 93, true );
+	}
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(

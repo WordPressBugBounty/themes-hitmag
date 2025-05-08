@@ -448,6 +448,16 @@ function hitmag_kirki_fields( $fields ) {
 	);
 
 	$fields[] = array(
+		'type'        => 'checkbox',
+		'settings'    => 'hitmag_use_high_res_images',
+		'label'       => __( 'Improve image quality by using larger sizes?', 'hitmag' ),
+		'description' => __( '( Changes require regenerating thumbnails for existing featured images. This setting affects "featured images" displayed on archives, widgets, single posts, etc. )', 'hitmag' ),
+		'section'     => 'hitmag_blog_options',
+		'default'     => false,
+		'priority'    => 12,
+	);
+
+	$fields[] = array(
 		'type'        => 'radio-image',
 		'settings'    => 'post_sidebar_align',
 		'label'       => esc_html__( 'Content and Sidebar Alignment', 'hitmag' ),

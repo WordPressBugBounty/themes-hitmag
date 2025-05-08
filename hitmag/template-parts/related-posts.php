@@ -22,6 +22,9 @@ if ( $categories ) { ?>
             'ignore_sticky_posts'   => true
         );
 
+        // Filter for Related Posts query arguments.
+        $args = apply_filters( 'hitmag_related_posts_query_arguments', $args );
+
         $related_posts = new WP_Query($args);
 
         if( $related_posts->have_posts() ) :
