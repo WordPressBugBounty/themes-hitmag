@@ -2,9 +2,9 @@
 
 Contributors: Pubudu Malalasekara
 Requires at least: 4.7
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.3
-Stable tag: 1.4.3
+Stable tag: 1.4.4
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,9 @@ Jetpack
 Font Awesome 4 Menus
 
 == Changelog ==
+
+= 1.4.4 =
+* Removed deprecated IE html5shiv script.
 
 = 1.4.3 =
 * New: Added an option to improve featured image quality by using larger image sizes (Customizer > Blog Options).
