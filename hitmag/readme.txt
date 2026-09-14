@@ -2,9 +2,9 @@
 
 Contributors: Pubudu Malalasekara
 Requires at least: 4.7
-Tested up to: 6.9
+Tested up to: 7.1
 Requires PHP: 5.3
-Stable tag: 1.4.4
+Stable tag: 1.4.5
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Jetpack
 Font Awesome 4 Menus
 
 == Changelog ==
+
+= 1.4.5 =
+* New: Added more social media icon options.
+* Fix: Added the styles previously provided by theme.css to theme stylesheet, as WordPress 7.0 and later no longer load them via add_theme_support( 'wp-block-styles' ).
 
 = 1.4.4 =
 * Removed deprecated IE html5shiv script.

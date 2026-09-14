@@ -1,17 +1,17 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: hitmag.1.4.3\n"
-"POT-Creation-Date: 2025-05-07 11:39+0530\n"
+"Project-Id-Version: hitmag.1.4.5\n"
+"POT-Creation-Date: 2026-09-02 23:13+0530\n"
 "PO-Revision-Date: 2017-11-21 08:57+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.6\n"
-"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n;"
-"_x;_nx\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n;_x;_nx\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -60,12 +60,12 @@ msgstr ""
 msgid "Powered by %1$s and %2$s."
 msgstr ""
 
-#: functions.php:60 functions.php:181 header.php:147
+#: functions.php:60 functions.php:178 header.php:147
 #: inc/customizer/customizer.php:209
 msgid "Main Menu"
 msgstr ""
 
-#: functions.php:61 functions.php:190 header.php:53
+#: functions.php:61 functions.php:187 header.php:53
 #: inc/customizer/customizer.php:200
 msgid "Top Menu"
 msgstr ""
@@ -74,45 +74,45 @@ msgstr ""
 msgid "Social Media Menu"
 msgstr ""
 
-#: functions.php:199
+#: functions.php:196
 msgid "Social Links Menu"
 msgstr ""
 
-#: functions.php:237
+#: functions.php:234
 msgid "Main Sidebar"
 msgstr ""
 
-#: functions.php:239
+#: functions.php:236
 msgid "Add widgets here."
 msgstr ""
 
-#: functions.php:246 inc/dashboard/theme-info.php:59
+#: functions.php:243 inc/dashboard/theme-info.php:59
 msgid "Magazine Homepage"
 msgstr ""
 
-#: functions.php:248
+#: functions.php:245
 msgid ""
 "Appearas on Magazine Homepage template only. Add magazine posts widgets to "
 "this widget area."
 msgstr ""
 
-#: functions.php:255
+#: functions.php:252
 msgid "Header Advertisement Area"
 msgstr ""
 
-#: functions.php:257
+#: functions.php:254
 msgid "You can add advertisement widget to this widget area."
 msgstr ""
 
-#: functions.php:264
+#: functions.php:261
 msgid "Footer Left Sidebar"
 msgstr ""
 
-#: functions.php:273
+#: functions.php:270
 msgid "Footer Mid Sidebar"
 msgstr ""
 
-#: functions.php:282
+#: functions.php:279
 msgid "Footer Right Sidebar"
 msgstr ""
 
@@ -661,6 +661,18 @@ msgstr ""
 msgid "Create a page."
 msgstr ""
 
+#: inc/extras.php:322
+msgid "Social Icon"
+msgstr ""
+
+#: inc/extras.php:331
+msgid "Auto Detect"
+msgstr ""
+
+#: inc/extras.php:349
+msgid "Select an icon or use automatic detection based on the URL."
+msgstr ""
+
 #: inc/kirki/controls/php/class-kirki-control-background.php:48
 msgid "Background Color"
 msgstr ""
@@ -1061,8 +1073,8 @@ msgstr ""
 
 #: inc/kirki/core/class-kirki-init.php:289
 msgid ""
-"We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::"
-"get_variables() instead."
+"We detected you're using Kirki_Init::get_variables(). Please use "
+"Kirki_Util::get_variables() instead."
 msgstr ""
 
 #: inc/kirki/core/class-kirki-init.php:365
@@ -1093,8 +1105,8 @@ msgstr ""
 
 #: inc/kirki/field/class-kirki-field-color.php:52
 msgid ""
-"Do not use \"alpha\" as an argument in color controls. Use "
-"\"choices[alpha]\" instead."
+"Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]"
+"\" instead."
 msgstr ""
 
 #: inc/kirki/field/class-kirki-field-radio.php:37

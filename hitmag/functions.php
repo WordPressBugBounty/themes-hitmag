@@ -104,9 +104,6 @@ function hitmag_setup() {
 	// Load regular editor styles into the new block-based editor.
 	add_theme_support( 'editor-styles' );
 
- 	// Load default block styles.
-	add_theme_support( 'wp-block-styles' );
-
 	// Add support for responsive embeds.
 	add_theme_support( 'responsive-embeds' );
 
@@ -346,7 +343,7 @@ add_action( 'wp_enqueue_scripts', 'hitmag_scripts' );
  */
 function hitmag_block_editor_styles() {
 	// Block styles.
-	wp_enqueue_style( 'hitmag-block-editor-style', get_template_directory_uri() . '/css/editor-blocks.css' );
+	wp_enqueue_style( 'hitmag-block-editor-style', get_template_directory_uri() . '/css/editor-blocks.css', array(), wp_get_theme()->get( 'Version' ) );
 	// Add custom fonts.
 	wp_enqueue_style( 'hitmag-fonts', hitmag_fonts_url(), array(), null );
 }
@@ -376,6 +373,11 @@ require_once( trailingslashit( get_template_directory() ) . '/inc/customizer/cus
  * Custom block styles.
  */
 require get_template_directory() . '/inc/block-styles.php';
+
+/**
+ * Handle SVG icons.
+ */ 
+require get_template_directory() . '/inc/class-hitmag-svg-icons.php';
 
 /**
  * Customizer additions.
